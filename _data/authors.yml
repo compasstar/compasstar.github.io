@@ -2,14 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 compasstar:
-  name:              JaeHong Lee
+  name:              Jaehong Lee
   email:             woohong24@naver.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   # 자기 소개
   about:             |
-    간단한 자기소개
     개발자로서의 역량을 키우고 있는 대학생입니다
 
 
