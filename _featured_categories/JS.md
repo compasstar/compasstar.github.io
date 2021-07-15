@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Java Script
-slug: Java Script
+title: JS
+slug: JS
 menu: true
 submenu: false
 order: 5
