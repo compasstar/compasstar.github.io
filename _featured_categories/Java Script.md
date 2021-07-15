@@ -1,10 +1,10 @@
 ---
 layout: list
-title: HTML
-slug: HTML
+title: Java Script
+slug: Java Script
 menu: true
 submenu: false
-order: 3
+order: 5
 description: >
-  HTML 문법  
+  js 문법  
 ---
