@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[CSS] 10.CSS transform transition 속성"
+title:  "[CSS] 11.CSS transform transition 속성"
 subtitle:   "CSS transform/transition"
 categories: CSS
 tags: CSS
