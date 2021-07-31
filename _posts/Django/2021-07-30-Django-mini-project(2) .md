@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Django] 2.Django 미니프로젝트(2)"
+title:  "[Django] 3.Django 미니프로젝트(2)"
 subtitle:   "Django 미니프로젝트(2)"
 categories: Django
 tags: Django
