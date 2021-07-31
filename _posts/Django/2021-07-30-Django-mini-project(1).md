@@ -106,6 +106,9 @@ hello world
 
 ![hello world](https://user-images.githubusercontent.com/55419868/127607620-e4a63552-7905-4a94-ad91-eca0c712108a.JPG)
 
-사이트에서 반겨주는 것을 확인 할 수 있습니다.<br><br><hr>
+사이트에서 반겨주는 것을 확인 할 수 있습니다.<br><br>
+
+<hr>
+
 기본적인 토대는 여기까지 입니다.<br>
 다음 포스팅에서는 템플릿을 가져와서 사이트를  꾸며보겠습니다.

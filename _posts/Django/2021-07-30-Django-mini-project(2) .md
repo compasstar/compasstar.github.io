@@ -8,37 +8,45 @@ comments: true
 date: 2021-07-30 00:12:00
 ---
 
-'bootstrap 무료템플릿'을 검색하여 아무 템플릿이나 다운로드 받겠습니다. <br>그 폴더명은 'static'으로 바꾸어 'mysite'폴더에 넣어줍니다.
+'bootstrap 무료템플릿'을 검색하여 아무 템플릿이나 다운로드 받겠습니다. <br>
+<a href="https://startbootstrap.com/theme/creative">https://startbootstrap.com/theme/creative</a> <br><br>
+그 폴더명은 `static`으로 바꾸어 'mysite'폴더에 넣어줍니다.
 <br><br>
+
 ![static폴더](https://user-images.githubusercontent.com/55419868/127609183-35d7b0c9-cf79-4e1c-8aed-aa14084fb710.JPG)
 
 <br>
+
+
+
 받은 템플릿에서 `index.html` / `css` / `js` 이것들이 있는지 확인해주시면 됩니다. 
 
-`static` 폴더 안의 `index.html` 내용을 전부 복사하여 main > templates > main > index.html 에 붙여넣어 주겠습니다.  <br><br>
+`static` 폴더 안의 `index.html` 내용을 전부 복사하여 `main > templates > main > index.html` 에 붙여넣어 주겠습니다.  <br><br>
 서버를 열어 확인해보시면 html이 적용된 것을 확인할 수 있습니다.
 
 ![html적용](https://user-images.githubusercontent.com/55419868/127609474-ef4baa28-7a72-48eb-bbce-433899dbd5de.JPG)
 
 <br>
 그러나 css와 js가 적용되지 않아 글자만 이렇게 나타납니다. 
-<br> 
+<br><br> 
 
 ```
-{% load static %}
+{% raw %} {% load static %} {% endraw %}
 ```
-`index.html` 파일 맨 위에 위의 코드를 적겠습니다. <br>static 폴더를 가져올 수 있게됩니다. <br><br>
+
+
+`index.html` 파일 맨 위에 위의 코드를 적겠습니 다. <br>`static` 폴더를 가져올 수 있게됩니다. <br><br>
 
 ```
 <link href="css/styles.css" rel="stylesheet" />
 ```
 
 ```
-<link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+<link href="{% raw %} {% static 'css/styles.css' %} {% endraw %}" rel="stylesheet" />
 ```
 
 `static` 폴더 안의 파일에 링크가 걸려있는 것들을 수정해줍니다.<br>
- `"{% static '' %}"` 이렇게 수정해주어야 제대로 인식할 수 있습니다.
+ `"{% raw %} {% static '' %} {% endraw %}"` 이렇게 수정해주어야 제대로 인식할 수 있습니다.
 
  ```
  # settings.py 입니다.
@@ -228,6 +236,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ```
+{% raw %}
 {% for post in postAll %}
 <div class="col-lg-4 col-sm-6">
     <a class="portfolio-box" href="{{post.img.url}}" title="Project Name">
@@ -239,15 +248,16 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     </a>
 </div>
 {% endfor %}
+{% endraw %}
 ```
 `for`문을 이용해 일일이 6개씩 이미지를 입력하던 것을 반복문으로 만들었습니다.
 `href` / `src` / `Category` / `Project Name`을 수정했습니다.<br>
-`{{}}` 을 찾으시면 됩니다.<br><br>
+{% raw %} {{}} {% endraw %} 을 찾으시면 됩니다.<br><br>
 그 외에도 전체코드에서 `src` 주소가 입력된 부분은
 ```
-<script src="{% static 'js/scripts.js' %}"></script>
+<script src="{% raw %} {% static 'js/scripts.js' %} {% endraw %}"></script>
 ```
-이런 식으로 `{% static '' %}`을 추가 해주었습니다.<br><br>
+이런 식으로 {% raw %} {% static '' %} {% endraw %}을 추가 해주었습니다.<br><br>
 
 이제 서버로 들어가 확인해보겠습니다.
 ![이미지 7개](https://user-images.githubusercontent.com/55419868/127632377-3638e162-7666-4fb8-be47-b1ea3c6129dd.JPG)
