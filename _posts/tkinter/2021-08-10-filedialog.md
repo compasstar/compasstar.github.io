@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[tkinter] 3. filedialog 파일추가"
+title:  "[tkinter] 3. filedialog 파일 / 폴더 추가"
 subtitle:   "tkinter filedialog"
 categories: tkinter
 tags: tkinter
@@ -22,3 +22,7 @@ files = filedialog.askopenfilenames(title="이미지 파일을 선택하세요",
 `filetypes`로 불러오고자 하는 파일의 형태를 결정하면 됩니다.<br>
 `initialdir`로 파일 탐색창의 첫 디렉토리를 설정할 수 있습니다.
     
+```
+filedialog.askdirectory()
+```
+위 코드로는 폴더를 불러올 수 있습니다. (괄호 안의 내용은 동일)
