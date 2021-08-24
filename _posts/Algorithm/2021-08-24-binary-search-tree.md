@@ -113,12 +113,12 @@ class BinSearchTree:
 class Node:
     def lookup(self, key, parent=None):
         if key < self.key:
-            if self.key.left:
+            if self.left:
                 return self.left.lookup(key, self)
             else:
                 return None, None
         elif key > self.key:
-            if self.key.right:
+            if self.right:
                 return self.right.lookup(key, self)
             else:
                 return None, None
