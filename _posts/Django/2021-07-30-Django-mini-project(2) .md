@@ -2,7 +2,7 @@
 layout: post
 title:  "[Django] 3.Django 미니프로젝트(2)"
 subtitle:   "Django 미니프로젝트(2)"
-categories: Django
+categories: Python
 tags: Django
 comments: true
 date: 2021-07-30 00:12:00

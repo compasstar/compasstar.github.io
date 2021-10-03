@@ -3,7 +3,7 @@ layout: post
 title:  "[Python] 2. 이중 for 문 탈출하기"
 subtitle:   "이중 for 문 출하기"
 categories: Python
-tags: Python
+tags: python-basic
 comments: true
 date: 2021-08-02 00:14:34
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "[tkinter] 3. filedialog 파일 / 폴더 추가"
 subtitle:   "tkinter filedialog"
-categories: tkinter
+categories: Python
 tags: tkinter
 comments: true
 date: 2021-08-10 00:15:23

@@ -2,7 +2,7 @@
 layout: post
 title:  "[tkinter] 2. messagebox"
 subtitle:   "tkinter messagebox"
-categories: tkinter
+categories: Python
 tags: tkinter
 comments: true
 date: 2021-08-08 00:22:07

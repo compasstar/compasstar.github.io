@@ -2,7 +2,7 @@
 layout: post
 title:  "[tkinter] 1. tkinter 기본문법"
 subtitle:   "tkinter 기본문법"
-categories: tkinter
+categories: Python
 tags: tkinter
 comments: true
 date: 2021-08-05 00:14:02

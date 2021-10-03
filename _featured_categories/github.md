@@ -1,10 +1,10 @@
 ---
 layout: list
-title: tkinter
-slug: tkinter
+title: github
+slug: github
 menu: true
 submenu: false
-order: 9
+order: 12
 description: >
-  Python tkinter  
+  github  
 ---
