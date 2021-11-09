@@ -4,7 +4,7 @@ title: github
 slug: github
 menu: true
 submenu: false
-order: 12
+order: 7
 description: >
   github  
 ---

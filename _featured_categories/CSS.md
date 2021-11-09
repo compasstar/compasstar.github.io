@@ -4,7 +4,7 @@ title: CSS
 slug: CSS
 menu: true
 submenu: false
-order: 4
+order: 2
 description: >
   CSS 문법  
 ---

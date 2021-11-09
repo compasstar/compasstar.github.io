@@ -1,10 +1,10 @@
 ---
 layout: list
-title: R
-slug: R
+title: JAVA
+slug: JAVA
 menu: true
 submenu: false
-order: 6
+order: 8
 description: >
-  Algorithm  
+  JAVA
 ---

@@ -4,7 +4,7 @@ title: JS
 slug: JS
 menu: true
 submenu: false
-order: 5
+order: 3
 description: >
   js 문법  
 ---

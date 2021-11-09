@@ -4,7 +4,7 @@ title: Algorithm
 slug: Algorithm
 menu: true
 submenu: false
-order: 10
+order: 5
 description: >
   Algorithm  
 ---
