@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'RIDIBatang';
-  src: url('assets/fonts/RIDIBatang.otf') format('otf');
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,7 @@
   padding-bottom: 6%;
   word-wrap: break-word;
   font-size: 16px;
+  font-family: 'RIDIBatang';
 }
 
 
