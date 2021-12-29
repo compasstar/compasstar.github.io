@@ -142,3 +142,43 @@ public class MainClass {
 - `map.containsValue("World");` 특정 value를 가진 변수가 있는 지 boolean 형태로 가져옵니다.
 - `map.clear();` 해당 해쉬맵 안에 있는 데이터를 모두 지웁니다.
 - `map.isEmpty();` 해쉬맵에 데이터가 있는지 없는지 boolean 형태로 반환합니다.
+
+<br><br>
+
+# 3. HashMap 에서 value값 key로 찾기, value로 찾기
+
+***
+
+```
+@Test
+public void test(){
+    HashMap<Integer, String> map = new HashMap<Integer, String>();
+
+    map.put(1, "one");
+    map.put(2, "two");
+    map.put(3, "three");
+    map.put(4, "four");
+
+    String answer1 = map.get(3);
+
+    String answer2 = map.values().stream()
+            .filter(number -> number.equals("three"))
+            .findAny().get();
+}
+```
+`map`에 <key, value> 4개를 넣었습니다.
+
+1. key 값으로 찾기
+> `map.get(3)`으로 key값이 3인 value를 반환합니다.
+
+<br>
+
+2. value 값으로 찾기
+> `map.values()` value 값들 중에<br>
+>  `.steam()` 돌면서<br>
+>  `.filter(nember -> number.equals("three"))` 'three' 와 동일한 것을 걸러냅니다. (여기서 `number`는 아무 글자가 넣어도 괜찮습니다 반복문에서 임시로 넣는 변수같은 것입니다)<br>
+> `.findAny()` 하나라도 필터링되면 그만합니다.
+
+<br>
+
+`answer1` `answer2` 두 개다 동일하게 `three`라는 문자가 저장됩니다.
