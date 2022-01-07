@@ -105,3 +105,10 @@ class MemberServiceTest {
 # 6. [Alt + Insert] Generate 
 
 Constructor, Getter 등을 생성해줍니다.
+
+<br><br>
+
+# 7. [Alt + Enter] Show Context Action
+
+관련된 기능들을 보여줍니다. <br>
+-> 람다함수로 변환 등
