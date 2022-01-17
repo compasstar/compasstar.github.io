@@ -117,5 +117,55 @@ Constructor, Getter 등을 생성해줍니다.
 
 # 8. [F2] 오류난 곳으로 이동
 
+# 9. 'iter' + [Tab]
+
+```
+String[] Name = {"n", "a", "m", "e"};
+iter
+```
+
+```
+String[] Name = {"n", "a", "m", "e"};
+for (String s : Name) {
+            
+}
+```
+무언가 배열이 있는 곳에서 입력하면, 반복문을 자동으로 생성해줍니다
+<br><br>
+
+# 10. 'sout' + [Tab]
+
+```
+void method() {
+    String name = "name";
+    sout
+    soutm
+    soutv
+}
+```
+
+```
+void method() {
+    String name = "name";
+    System.out.println();
+    System.out.println("ApplicationContextInfoTest.method");
+    System.out.println("name = " + name);
+}
+```
+sout
+> System.out.println(); <br>
+
+soutm
+> sout 에 메소드 이름을 입력합니다 <br>
+
+soutv
+> sout 에 변수 이름을 입력합니다 <br>
+
+<br><br>
+
+# 11. [Ctrl + D]
+
+선택한 내용을 복제합니다
+
 
 
