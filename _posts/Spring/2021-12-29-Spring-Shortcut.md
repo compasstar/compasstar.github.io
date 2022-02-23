@@ -183,3 +183,15 @@ recent File 로 이동할 수 있습니다.<br>
 모든 항목을 검색할 수 있는 창이 나옵니다. <br>
 클래스 등을 검색하여 이동할 수 있습니다.<br><br>
 
+# 16. [Ctrl + Alt + N]
+
+```
+List<Member> result = em.createQuery("select m from Member m", Member.class).getResultList();
+
+return result;
+```
+
+```
+return em.createQuery("select m from Member m", Member.class).getResultList();
+```
+변수를 통해 연결된 코드를 하나로 합쳐줍니다
