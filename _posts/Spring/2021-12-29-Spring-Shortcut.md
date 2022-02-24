@@ -195,3 +195,22 @@ return result;
 return em.createQuery("select m from Member m", Member.class).getResultList();
 ```
 변수를 통해 연결된 코드를 하나로 합쳐줍니다
+
+# 17. [Ctrl + Alt + p]
+
+파라미터를 꺼내서 한꺼번에 수정이 됩니다
+
+```
+private int createNum() {
+    int num = 5;
+    return num;
+}
+```
+5를 선택한 상태로 커맨드를 누르면 `int num = num1` 과 함께 위에 파라미터까지 한꺼번에 생성해줍니다.
+
+```
+private int createNum(int num1) {
+    int num = num1;
+    return num;
+}
+```
