@@ -94,7 +94,9 @@ class MemberServiceTest {
 }
 ```
 
-자동으로 테스트 클래스를 만들어 줍니다
+자동으로 테스트 클래스를 만들어 줍니다 <br><br>
+만일 이미 테스트 클래스가 존재한다면, 해당 테스트로 이동합니다. <br>
+반대로 테스트 클래스에서 커맨드를 입력하면 원래 클래스로 돌아옵니다.
 
 <br><br>
 
@@ -195,6 +197,7 @@ return result;
 return em.createQuery("select m from Member m", Member.class).getResultList();
 ```
 변수를 통해 연결된 코드를 하나로 합쳐줍니다
+<br><br>
 
 # 17. [Ctrl + Alt + p]
 
