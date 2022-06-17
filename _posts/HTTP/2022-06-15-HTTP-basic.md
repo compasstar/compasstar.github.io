@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[HTTP] 3.HTTP 메시지"
-subtitle:   "HTTP 메시지"
+title:  "[HTTP] 3.HTTP 기본"
+subtitle:   "HTTP 기본"
 categories: HTTP
 tags: HTTP
 comments: true
